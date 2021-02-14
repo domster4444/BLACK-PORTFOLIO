@@ -164,16 +164,24 @@ export default function Navbar() {
             <img src={one} alt="number one potrait"></img>
             <ul className="montserrat_300">
               <li className="active">
-                <a id="aboutmeMenu">ABOUT ME</a>
+                <a id="aboutmeMenu" href="##biography--right-Division">
+                  ABOUT ME
+                </a>
               </li>
               <li>
-                <a id="beginningMenu">BEGINNING</a>
+                <a id="beginningMenu" href="##biography--right-Division">
+                  BEGINNING
+                </a>
               </li>
               <li>
-                <a id="thefirstMenu">THE FIRST BOOK</a>
+                <a id="thefirstMenu" href="##biography--right-Division">
+                  THE FIRST BOOK
+                </a>
               </li>
               <li>
-                <a id="careerMenu">MY CAREER</a>
+                <a id="careerMenu" href="#biography--right-Division">
+                  MY CAREER
+                </a>
               </li>
             </ul>
           </div>
