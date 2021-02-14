@@ -1,0 +1,23 @@
+#bestWorkSection {
+  @include flexContainer;
+  justify-content: center;
+  #leftSection {
+    width: 34%;
+    article {
+      h4 {
+        font-size: 1.6rem;
+        color: $royal_blue;
+      }
+      h1 {
+        font-size: 4.2rem;
+        color: $royal_white;
+      }
+    }
+  }
+  #rightSection {
+    img {
+      width: 28.4rem;
+      height: 20.9rem;
+    }
+  }
+}

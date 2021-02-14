@@ -1,0 +1,64 @@
+#blurblank {
+  filter: blur(400px);
+  -webkit-filter: blur(400px);
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: black;
+  z-index: 100;
+  cursor: pointer;
+}
+#toolbar {
+  -webkit-box-shadow: 0px 21px 226px 55px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 21px 226px 55px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 21px 226px 55px rgba(0, 0, 0, 0.75);
+
+  position: relative;
+  z-index: 100;
+  background: rgb(17, 17, 17);
+  @include flexContainer;
+  justify-content: center;
+  #toolbar-ul {
+    margin-top: 5.3rem;
+  }
+  #toolbar-ul {
+    width: 66%;
+  }
+  ul {
+    align-items: center;
+    list-style: none;
+    @include flexContainer;
+    justify-content: space-between;
+
+    #name-logo {
+      color: $royal_white;
+      letter-spacing: 0.75rem;
+      font-weight: bold;
+      font-size: 1.8rem;
+      span {
+        color: $royal_blue;
+      }
+    }
+    li {
+      #hamburger {
+        position: relative;
+        padding: 2rem;
+        z-index: 100;
+        cursor: pointer;
+        @include flexContainer;
+        flex-direction: column;
+        margin: 1rem;
+        .line {
+          width: 2rem;
+          margin: 0.1rem 0rem;
+          background-color: $royal_blue;
+          height: 0.4rem;
+        }
+      }
+    }
+
+    #hamburger-container {
+    }
+  }
+}

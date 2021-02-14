@@ -1,0 +1,48 @@
+@keyframes animationOne {
+  0% {
+    transform: translateY(0px);
+    transition: all 200ms ease-in-out 400ms;
+  }
+
+  50% {
+    transition: all 200ms ease-in-out 400ms;
+
+    transform: translateY(15px);
+  }
+
+  100% {
+    transition: all 200ms ease-in-out 400ms;
+
+    transform: translateY(0px);
+  }
+}
+
+// #heroSectionPhoneImage,#girlInPhoneImage,#designIllustrator,#planningPhone{
+
+//     animation-name: animationOne;
+//     animation-duration: 3.8s;
+//     animation-iteration-count: infinite;
+//    transition:all  3.8s  ;
+// }
+
+// @keyframes animationOne{
+//     from{
+//         transform: translateX(0px);
+
+//     }
+//     to{
+// transform: translateX(200px);
+//     }
+// }
+
+// .cls{
+//     animation-name: animationOne;
+//    animation-duration: 3.8s;
+//     animation-iteration-count: infinite;
+//    transition:all  3.8s  ;
+// }
+
+// -------Animate.css ------
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 2s;
+}

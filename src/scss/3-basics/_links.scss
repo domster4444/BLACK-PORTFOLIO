@@ -1,0 +1,9 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  &:hover,
+  &:focus {
+    color: rgb(94, 199, 200);
+  }
+}

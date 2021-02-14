@@ -1,0 +1,12 @@
+// *                    Recipies
+@mixin fullImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@mixin flexContainer {
+  display: flex;
+}
+@mixin transition15 {
+  transition: all 0.15s ease-in-out 0s;
+}

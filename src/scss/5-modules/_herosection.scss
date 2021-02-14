@@ -1,0 +1,57 @@
+#heroSection {
+  @include flexContainer;
+  justify-content: center;
+  flex-wrap: wrap;
+  img {
+    border-left: 10px solid #949494;
+    border-bottom: 10px solid #949494;
+    margin-top: -5rem;
+    animation-name: animationOne;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    height: 85rem;
+    width: 72rem;
+
+    @include media('<=desktop') {
+      height: 50rem;
+      width: 40rem;
+    }
+  }
+  article {
+    padding-top: 8rem;
+    @include flexContainer;
+    justify-content: center;
+    align-items: center;
+    #my-introduction-heading {
+    }
+    h2 {
+      color: $royal_white;
+      text-align: center;
+      font-size: 6rem;
+    }
+    h1 {
+      padding: 0rem;
+      margin: 0rem;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(
+        to top,
+        #676767,
+        #808080,
+        #9a9a9a,
+        #b5b5b5,
+        #d1d1d1
+      );
+      font-size: 18.7rem;
+    }
+    h4 {
+      text-align: center;
+      margin-top: 5rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: $royal_blue;
+    }
+  }
+}
