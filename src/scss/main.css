@@ -7024,8 +7024,24 @@ aside ul .active {
 }
 
 #bestWorkSection {
+  position: relative;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
+}
+
+#bestWorkSection #blueRectForTwo {
+  top: 12.2rem;
+  position: absolute;
+  height: 0.5rem;
+  width: 8rem;
+  background-color: #5ec7c8;
+}
+
+@media (max-width: 572px) {
+  #bestWorkSection #blueRectForTwo {
+    top: 16.9rem;
+  }
 }
 
 #bestWorkSection #leftSection {

@@ -3,6 +3,7 @@ import kshitiz from '../img/kshitiz.png';
 import one from '../img/one.png';
 import two from '../img/two.png';
 import three from '../img/three.png';
+import four from '../img/four.png';
 import projectOne from '../img/projectOne.png';
 import mom from '../img/mom.png';
 import statisticsLogoOne from '../img/statistics-logo-one.png';
@@ -276,7 +277,7 @@ export default function Navbar() {
             </ul>
           </div>
         </section>
-
+        {/* ------------------------------------------------------  */}
         <section id="bestWorkSection">
           <div id="leftSection">
             <article>
@@ -369,44 +370,58 @@ export default function Navbar() {
 
         <section id="statistics-section">
           <div className="statistics-card">
-            <p className="number">1587</p>
+            <p className="number">35</p>
             <div className="blueVerticleLineContainer">
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
               <img src={statisticsLogoOne} alt="icon potrait"></img>
             </div>
-            <h2 class="poppins_300">TOTAL PAGES</h2>
+            <h2 class="poppins_300">TOTAL WEBSITES</h2>
           </div>
           <div className="statistics-card">
-            <p className="number">1587</p>
+            <p className="number">4</p>
             <div className="blueVerticleLineContainer">
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
               <img src={statisticsLogoTwo} alt="icon potrait"></img>
             </div>
-            <h2 class="poppins_300">TOTAL PAGES</h2>
+            <h2 class="poppins_300">CLIENTS</h2>
           </div>
           <div className="statistics-card">
-            <p className="number">1587</p>
+            <p className="number">153</p>
             <div className="blueVerticleLineContainer">
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
               <img src={statisticsLogoThree} alt="icon potrait"></img>
             </div>
-            <h2 class="poppins_300">TOTAL PAGES</h2>
+            <h2 class="poppins_300">WORKING HOURS</h2>
           </div>
           <div className="statistics-card">
-            <p className="number">1587</p>
+            <p className="number">356</p>
             <div className="blueVerticleLineContainer">
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
               <img src={statisticsLogoFour} alt="icon potrait"></img>
             </div>
-            <h2 class="poppins_300">TOTAL PAGES</h2>
+            <h2 class="poppins_300">COFFEE</h2>
+          </div>
+        </section>
+
+        <section id="bestWorkSection">
+          <div id="leftSection">
+            <article>
+              <h4 className="montserrat_300">ABOUT ME</h4>
+              <h1 className="playfair_300">INTERESTS</h1>
+              <hr></hr>
+              <div id="blueRectForTwo"></div>
+            </article>
+          </div>
+          <div id="rightSection">
+            <img src={four} alt=" number two potrait"></img>
           </div>
         </section>
       </main>
