@@ -152,7 +152,6 @@ export default function Navbar() {
             </div>
           </article>
         </section>
-
         <section id="BiographySection">
           <div id="biography--left-Division">
             <img src={one} alt="number one potrait"></img>
@@ -272,7 +271,6 @@ export default function Navbar() {
             </ul>
           </div>
         </section>
-
         <section id="bestWorkSection">
           <div id="leftSection">
             <article>
@@ -315,7 +313,6 @@ export default function Navbar() {
             <button>VIEW ALL</button>
           </div>
         </section>
-
         {/* ----------------------------------------------------------------  */}
         <div id="contactMeSectionContainer">
           <section id="contactMeSection">
@@ -335,7 +332,6 @@ export default function Navbar() {
           </section>
         </div>
         {/* -----------------------------------------------------------------------------------  */}
-
         <section id="BiographySection">
           <div id="biography--left-Division">
             <img src={three} alt="number one potrait"></img>
@@ -348,15 +344,37 @@ export default function Navbar() {
                 <hr></hr>
                 <div className="blue-line-box"></div>
                 <article>
-                  <p className="lato_400">
-                    Hey! My name is Kshitiz and I'm front-end Webdeveloper. I
-                    develop high quality websites,webapp.I am expert in
-                    HTML,CSS,SCSS,React,Javascript.I express
-                    feelings,expressions,and quality through my websites.I find
-                    my inspiration in diving into people's eyes,souls,during our
-                    communication with each other.My works are full of
-                    breathtaking quality and strongly near to perfection.
-                  </p>
+                  <div class="carouselI" data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel-cell">
+                      <p>
+                        CSS/HTML Expert Needed <br></br>
+                        Rating is 5 out of 5. 5.00 <br></br>
+                        Oct 31, 2020 - Nov 14, 2020<br></br>
+                        <br />
+                        <br />
+                        <br />
+                        "Excellent Work and excited to<br></br>
+                        user her for future projects" $519.00 $12.00 / hr 55
+                        <br></br>
+                        hours<br></br>
+                      </p>
+                    </div>
+                    <div class="carousel-cell">
+                      <p>
+                        <pre>
+                          Wordpress landing page creation..
+                          <br />
+                          Rating is 4.7 out of 5 ,<br />
+                          . 4.60 Apr 19, 2020 - May 5, 2020 <br />
+                          <br />
+                          <br />
+                          "Thank you for your help on the web site landing
+                          page." $40.00 Fixed Price
+                          <br />
+                        </pre>
+                      </p>
+                    </div>
+                  </div>
                 </article>
               </li>
             </ul>
