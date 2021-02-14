@@ -6748,6 +6748,7 @@ aside ul .active {
 }
 
 .statistics-card .number {
+  font-size: 3.7rem;
   margin-top: 5.3rem;
   text-align: center;
   color: white;

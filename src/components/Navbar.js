@@ -6,6 +6,9 @@ import three from '../img/three.png';
 import projectOne from '../img/projectOne.png';
 import mom from '../img/mom.png';
 import statisticsLogoOne from '../img/statistics-logo-one.png';
+import statisticsLogoTwo from '../img/statistics-logo-two.png';
+import statisticsLogoThree from '../img/statistics-logo-three.png';
+import statisticsLogoFour from '../img/statistics-logo-four.png';
 
 export default function Navbar() {
   useEffect(() => {
@@ -381,7 +384,7 @@ export default function Navbar() {
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
-              <img src={statisticsLogoOne} alt="icon potrait"></img>
+              <img src={statisticsLogoTwo} alt="icon potrait"></img>
             </div>
             <h2 class="poppins_300">TOTAL PAGES</h2>
           </div>
@@ -391,7 +394,7 @@ export default function Navbar() {
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
-              <img src={statisticsLogoOne} alt="icon potrait"></img>
+              <img src={statisticsLogoThree} alt="icon potrait"></img>
             </div>
             <h2 class="poppins_300">TOTAL PAGES</h2>
           </div>
@@ -401,7 +404,7 @@ export default function Navbar() {
               <div className="blueVerticleLine"></div>
             </div>
             <div className="logoContainer">
-              <img src={statisticsLogoOne} alt="icon potrait"></img>
+              <img src={statisticsLogoFour} alt="icon potrait"></img>
             </div>
             <h2 class="poppins_300">TOTAL PAGES</h2>
           </div>
