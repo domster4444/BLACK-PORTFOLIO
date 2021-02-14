@@ -1,24 +1,60 @@
+#contactMeSectionContainer {
+  margin-bottom: 10rem;
+  justify-content: center;
+  @include flexContainer;
+  align-items: center;
+}
 #contactMeSection {
+  width: 55%;
+  @include media('<=tablet') {
+    width: 100%;
+  }
+  margin-top: 10rem;
+  @include flexContainer;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 0px 0px 44px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 44px -6px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 44px -6px rgba(0, 0, 0, 1);
+  background-color: #191919;
+  #leftSection,
+  #rightSection {
+    margin: 0rem 2rem;
+  }
   #leftSection {
+    text-align: center;
     h3 {
-      line-height: 0rem;
-      font-size: 2.2rem;
+      margin-top: 2rem;
+      font-size: 3.2rem;
       color: $royal_white;
     }
     h1 {
-      line-height: 0rem;
-      font-size: 6.1rem;
+      margin-top: -0.4rem;
+      font-size: 7.1rem;
       color: $royal_white;
     }
     h2 {
-      font-size: 1.9rem;
+      margin-top: -2.4rem;
+      font-size: 2.9rem;
       color: $royal_blue;
     }
     h4 {
-      font-size: 1.4rem;
+      margin-top: 2.4rem;
+      font-size: 2.4rem;
       color: $royal_white;
     }
   }
   #rightSection {
+    @include media('<=desktop') {
+      padding-top: 5rem;
+    }
+    img {
+      height: 49rem;
+      @include media('<=tablet') {
+        height: 65rem;
+      }
+      width: 100%;
+    }
   }
 }

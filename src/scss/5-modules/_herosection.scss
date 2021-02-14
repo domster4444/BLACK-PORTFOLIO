@@ -1,4 +1,8 @@
 #heroSection {
+  margin-top: -9rem;
+  @include media('<=desktop') {
+    margin-top: 0rem;
+  }
   @include flexContainer;
   justify-content: center;
   flex-wrap: wrap;

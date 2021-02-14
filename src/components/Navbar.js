@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import kshitiz from '../img/kshitiz.png';
 import one from '../img/one.png';
 import two from '../img/two.png';
+import three from '../img/three.png';
 import projectOne from '../img/projectOne.png';
+import mom from '../img/mom.png';
 
 export default function Navbar() {
   useEffect(() => {
@@ -315,17 +317,50 @@ export default function Navbar() {
         </section>
 
         {/* ----------------------------------------------------------------  */}
+        <div id="contactMeSectionContainer">
+          <section id="contactMeSection">
+            <div id="leftSection">
+              <h3 className="playfair_italic_500">
+                <i>Reach me out</i>
+              </h3>
+              <h1 className="playfair_400">
+                <b>Contact me</b>
+              </h1>
+              <h2 className="montserrat_300">kshitiz.stha11@gmail.com</h2>
+              <h4>7am - 11pm</h4>
+            </div>
+            <div id="rightSection">
+              <img src={mom} alt="stylish person potrait"></img>
+            </div>
+          </section>
+        </div>
+        {/* -----------------------------------------------------------------------------------  */}
 
-        <section id="contactMeSection">
-          <div id="leftSection">
-            <h3 className="playfair_italic_500">
-              <i>Reach me out</i>
-            </h3>
-            <h1 className="playfair_400">Contact me</h1>
-            <h2 className="montserrat_300">kshitiz.stha11@gmail.com</h2>
-            <h4>7am - 11pm</h4>
+        <section id="BiographySection">
+          <div id="biography--left-Division">
+            <img src={three} alt="number one potrait"></img>
           </div>
-          <div id="rightSection"></div>
+          <div id="biography--right-Division">
+            <ul>
+              <li id="aboutme">
+                <h4 className="montserrat_300">WORK SECTION</h4>
+                <h1 className="playfair_300">REAL LIFE PROJECTS</h1>
+                <hr></hr>
+                <div className="blue-line-box"></div>
+                <article>
+                  <p className="lato_400">
+                    Hey! My name is Kshitiz and I'm front-end Webdeveloper. I
+                    develop high quality websites,webapp.I am expert in
+                    HTML,CSS,SCSS,React,Javascript.I express
+                    feelings,expressions,and quality through my websites.I find
+                    my inspiration in diving into people's eyes,souls,during our
+                    communication with each other.My works are full of
+                    breathtaking quality and strongly near to perfection.
+                  </p>
+                </article>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
     </>

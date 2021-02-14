@@ -6717,26 +6717,78 @@ aside ul .active {
   height: 0.4rem;
 }
 
+#contactMeSectionContainer {
+  margin-bottom: 10rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#contactMeSection {
+  width: 55%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 44px -6px black;
+  background-color: #191919;
+}
+
+@media (max-width: 768px) {
+  #contactMeSection {
+    width: 100%;
+  }
+}
+
+#contactMeSection #leftSection,
+#contactMeSection #rightSection {
+  margin: 0rem 2rem;
+}
+
+#contactMeSection #leftSection {
+  text-align: center;
+}
+
 #contactMeSection #leftSection h3 {
-  line-height: 0rem;
-  font-size: 2.2rem;
+  margin-top: 2rem;
+  font-size: 3.2rem;
   color: white;
 }
 
 #contactMeSection #leftSection h1 {
-  line-height: 0rem;
-  font-size: 6.1rem;
+  margin-top: -0.4rem;
+  font-size: 7.1rem;
   color: white;
 }
 
 #contactMeSection #leftSection h2 {
-  font-size: 1.9rem;
+  margin-top: -2.4rem;
+  font-size: 2.9rem;
   color: #5ec7c8;
 }
 
 #contactMeSection #leftSection h4 {
-  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  font-size: 2.4rem;
   color: white;
+}
+
+@media (max-width: 1366px) {
+  #contactMeSection #rightSection {
+    padding-top: 5rem;
+  }
+}
+
+#contactMeSection #rightSection img {
+  height: 49rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #contactMeSection #rightSection img {
+    height: 65rem;
+  }
 }
 
 #projectSection {
@@ -6928,9 +6980,16 @@ aside ul .active {
 }
 
 #heroSection {
+  margin-top: -9rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media (max-width: 1366px) {
+  #heroSection {
+    margin-top: 0rem;
+  }
 }
 
 #heroSection img {
