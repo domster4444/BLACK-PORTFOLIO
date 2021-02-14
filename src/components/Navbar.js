@@ -120,22 +120,22 @@ export default function Navbar() {
                 </div>
                 <ul className="playfair_300">
                   <li>
-                    <a href="#">HOME</a>
+                    <a href="#heroSection">HOME</a>
                   </li>
                   <li>
-                    <a href="#">ABOUT</a>
+                    <a href="#BiographySection">ABOUT</a>
                   </li>
                   <li>
-                    <a href="#">EVENTS</a>
+                    <a href="#projectsDivision">WORKS</a>
                   </li>
                   <li>
-                    <a href="#">PROJECTS</a>
+                    <a href="#projectSection">PROJECTS</a>
                   </li>
                   <li>
-                    <a href="#">BLOCK</a>
+                    <a href="#interestBlock">INTERESTS</a>
                   </li>
                   <li>
-                    <a href="#">WORKS</a>
+                    <a href="#contactMeSectionContainer">CONTACT</a>
                   </li>
                 </ul>
               </aside>

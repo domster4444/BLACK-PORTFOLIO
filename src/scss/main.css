@@ -6517,6 +6517,10 @@ body {
   user-select: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes animationOne {
   0% {
     transform: translateY(0px);
