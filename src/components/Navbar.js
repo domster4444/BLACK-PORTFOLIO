@@ -331,7 +331,7 @@ export default function Navbar() {
         </section>
 
         {/* ----------------------------------------------------------------  */}
-        <div id="contactMeSectionContainer">
+        <div id="contactMeSectionContainer" className="container_contact_me">
           <section id="contactMeSection">
             <div id="leftSection">
               <h3 className="playfair_italic_500">

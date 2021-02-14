@@ -6514,6 +6514,7 @@ body {
 }
 
 * {
+  transition: all ease-in-out 500ms;
   user-select: none;
 }
 
@@ -6846,6 +6847,12 @@ aside ul .active {
   align-items: center;
 }
 
+#container_contact_me {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 #contactMeSection {
   width: 55%;
   margin-top: 10rem;
@@ -6904,7 +6911,6 @@ aside ul .active {
 
 #contactMeSection #rightSection img {
   height: 49rem;
-  width: 100%;
 }
 
 @media (max-width: 768px) {

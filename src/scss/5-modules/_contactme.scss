@@ -4,6 +4,11 @@
   @include flexContainer;
   align-items: center;
 }
+#container_contact_me {
+  justify-content: center;
+  @include flexContainer;
+  align-items: center;
+}
 #contactMeSection {
   width: 55%;
   @include media('<=tablet') {
@@ -54,7 +59,6 @@
       @include media('<=tablet') {
         height: 65rem;
       }
-      width: 100%;
     }
   }
 }
