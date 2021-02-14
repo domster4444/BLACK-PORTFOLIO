@@ -10,6 +10,7 @@ import statisticsLogoOne from '../img/statistics-logo-one.png';
 import statisticsLogoTwo from '../img/statistics-logo-two.png';
 import statisticsLogoThree from '../img/statistics-logo-three.png';
 import statisticsLogoFour from '../img/statistics-logo-four.png';
+import bookPotrait from '../img/book-potrait.png';
 
 export default function Navbar() {
   useEffect(() => {
@@ -424,6 +425,36 @@ export default function Navbar() {
             <img src={four} alt=" number two potrait"></img>
           </div>
         </section>
+        <section id="interestContainer">
+          <div id="interestBlock">
+            <div id="leftContainer">
+              <img src={bookPotrait} alt="book hold by single hand"></img>
+            </div>
+            <div id="rightContainer">
+              <h1 className="playfair_300">
+                FROM TROUBLED DREAMS.
+                <br />I FOUND MYSELF TRANSFORMED <br />
+                IN MY PASSION INTO
+              </h1>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <h3>GET IN TOUCH</h3>
+          <h2 className="playfair_300">CONTACT ME</h2>
+          <hr></hr>
+          <input></input>
+          <div id="buttonContainer">
+            <button className="socialBtn">FB</button>
+            <button className="socialBtn">INSTAGRAM</button>
+            <h4>2021 Powered by:Crocoblock</h4>
+            <h5>
+              Inspired By
+              <a href="https://demo.crocoblock.com/rg/">demo.crocoblock.com</a>
+            </h5>
+            <h1>BUILT BY KSHTIZ</h1>
+          </div>
+        </footer>
       </main>
     </>
   );

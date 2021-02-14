@@ -6586,6 +6586,14 @@ a:hover, a:focus {
   font-weight: 400;
 }
 
+footer {
+  background-color: #171717;
+}
+
+footer h3 {
+  color: #5ec7c8;
+}
+
 aside {
   transition: height 600ms ease-in-out;
   transform: translateX(8rem);
@@ -6727,6 +6735,48 @@ aside ul .active {
   margin: 0.1rem 0rem;
   background-color: #5ec7c8;
   height: 0.4rem;
+}
+
+#interestContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#interestContainer #interestBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+}
+
+@media (min-width: 1366px) {
+  #interestContainer #interestBlock {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #interestContainer #leftContainer {
+    margin-top: 3rem;
+  }
+}
+
+#interestContainer #leftContainer img {
+  width: 37rem;
+  height: 28.5rem;
+}
+
+#interestContainer #rightContainer {
+  font-size: 1.8rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #interestContainer #rightContainer {
+    margin-top: 3rem;
+  }
 }
 
 #statistics-section {
