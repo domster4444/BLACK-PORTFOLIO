@@ -6513,6 +6513,10 @@ body {
   background: #202020;
 }
 
+* {
+  user-select: none;
+}
+
 @keyframes animationOne {
   0% {
     transform: translateY(0px);
@@ -6540,6 +6544,14 @@ a {
 
 a:hover, a:focus {
   color: #5ec7c8;
+}
+
+.poppins_base, .poppins_300 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins_300 {
+  font-weight: 300;
 }
 
 .montserrat, .montserrat_300 {
@@ -6715,6 +6727,61 @@ aside ul .active {
   margin: 0.1rem 0rem;
   background-color: #5ec7c8;
   height: 0.4rem;
+}
+
+#statistics-section {
+  margin-top: 9rem;
+  background-image: url(https://demo.crocoblock.com/rg/wp-content/uploads/2018/05/richard-img10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statistics-card {
+  margin: 3rem;
+  border: 1px solid #333333;
+  min-width: 37rem;
+  height: 42rem;
+}
+
+.statistics-card .number {
+  margin-top: 5.3rem;
+  text-align: center;
+  color: white;
+}
+
+.statistics-card .blueVerticleLineContainer {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.statistics-card .blueVerticleLineContainer .blueVerticleLine {
+  transform: rotate(-90deg);
+  background: #5ec7c8;
+  height: 0.5rem;
+  width: 3.3rem;
+}
+
+.statistics-card .logoContainer {
+  margin-top: 5.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.statistics-card .logoContainer img {
+  height: 6.3rem;
+  width: 6.3rem;
+}
+
+.statistics-card h2 {
+  margin-top: 5.3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
 }
 
 #contactMeSectionContainer {

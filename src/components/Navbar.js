@@ -5,6 +5,7 @@ import two from '../img/two.png';
 import three from '../img/three.png';
 import projectOne from '../img/projectOne.png';
 import mom from '../img/mom.png';
+import statisticsLogoOne from '../img/statistics-logo-one.png';
 
 export default function Navbar() {
   useEffect(() => {
@@ -360,6 +361,49 @@ export default function Navbar() {
                 </article>
               </li>
             </ul>
+          </div>
+        </section>
+
+        <section id="statistics-section">
+          <div className="statistics-card">
+            <p className="number">1587</p>
+            <div className="blueVerticleLineContainer">
+              <div className="blueVerticleLine"></div>
+            </div>
+            <div className="logoContainer">
+              <img src={statisticsLogoOne} alt="icon potrait"></img>
+            </div>
+            <h2 class="poppins_300">TOTAL PAGES</h2>
+          </div>
+          <div className="statistics-card">
+            <p className="number">1587</p>
+            <div className="blueVerticleLineContainer">
+              <div className="blueVerticleLine"></div>
+            </div>
+            <div className="logoContainer">
+              <img src={statisticsLogoOne} alt="icon potrait"></img>
+            </div>
+            <h2 class="poppins_300">TOTAL PAGES</h2>
+          </div>
+          <div className="statistics-card">
+            <p className="number">1587</p>
+            <div className="blueVerticleLineContainer">
+              <div className="blueVerticleLine"></div>
+            </div>
+            <div className="logoContainer">
+              <img src={statisticsLogoOne} alt="icon potrait"></img>
+            </div>
+            <h2 class="poppins_300">TOTAL PAGES</h2>
+          </div>
+          <div className="statistics-card">
+            <p className="number">1587</p>
+            <div className="blueVerticleLineContainer">
+              <div className="blueVerticleLine"></div>
+            </div>
+            <div className="logoContainer">
+              <img src={statisticsLogoOne} alt="icon potrait"></img>
+            </div>
+            <h2 class="poppins_300">TOTAL PAGES</h2>
           </div>
         </section>
       </main>

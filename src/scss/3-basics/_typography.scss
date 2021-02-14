@@ -28,6 +28,14 @@
 
 // montserrat
 
+.poppins_base {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins_300 {
+  @extend .poppins_base;
+  font-weight: 300;
+}
 .montserrat {
   font-family: 'Montserrat', sans-serif;
 }

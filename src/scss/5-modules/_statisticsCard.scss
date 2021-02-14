@@ -1,0 +1,48 @@
+#statistics-section {
+  margin-top: 9rem;
+  background-image: url(https://demo.crocoblock.com/rg/wp-content/uploads/2018/05/richard-img10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include flexContainer;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.statistics-card {
+  margin: 3rem;
+
+  border: 1px solid $royal_line_color;
+  min-width: 37rem;
+  height: 42rem;
+  .number {
+    margin-top: 5.3rem;
+    text-align: center;
+    color: $royal_white;
+  }
+  .blueVerticleLineContainer {
+    margin: 5rem;
+    @include flexContainer;
+    justify-content: center;
+    .blueVerticleLine {
+      transform: rotate(-90deg);
+      background: $royal_blue;
+      height: 0.5rem;
+      width: 3.3rem;
+    }
+  }
+  .logoContainer {
+    margin-top: 5.3rem;
+    @include flexContainer;
+    justify-content: center;
+    img {
+      height: 6.3rem;
+      width: 6.3rem;
+    }
+  }
+  h2 {
+    margin-top: 5.3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: $royal_white;
+  }
+}
