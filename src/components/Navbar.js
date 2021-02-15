@@ -5,6 +5,8 @@ import two from '../img/two.png';
 import three from '../img/three.png';
 import four from '../img/four.png';
 import projectOne from '../img/projectOne.png';
+import projectTwo from '../img/projectTwo.png';
+import projectThree from '../img/projectThree.png';
 import mom from '../img/mom.png';
 import statisticsLogoOne from '../img/statistics-logo-one.png';
 import statisticsLogoTwo from '../img/statistics-logo-two.png';
@@ -311,14 +313,14 @@ export default function Navbar() {
               <h3 className="montserrat_300">LATEST WORKS</h3>
             </div>
             <div className="card">
-              <img src={projectOne} alt="first project potrait"></img>
+              <img src={projectTwo} alt="first project potrait"></img>
               <h4 className="montserrat_300">LATEST WORKS</h4>
               <h1 className="playfair_300">MY BESTWORKS</h1>
               <hr></hr>
               <h3 className="montserrat_300">LATEST WORKS</h3>
             </div>
             <div className="card">
-              <img src={projectOne} alt="first project potrait"></img>
+              <img src={projectThree} alt="first project potrait"></img>
               <h4 className="montserrat_300">LATEST WORKS</h4>
               <h1 className="playfair_300">MY BESTWORKS</h1>
               <hr></hr>

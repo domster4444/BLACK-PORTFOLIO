@@ -6513,11 +6513,6 @@ body {
   background: #202020;
 }
 
-* {
-  transition: all ease-in-out 500ms;
-  user-select: none;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -6932,6 +6927,7 @@ aside ul .active {
 }
 
 #projectSection #projectsDivision .card {
+  cursor: pointer;
   margin: 1rem;
   text-align: center;
   width: 27.5rem;
@@ -6939,8 +6935,14 @@ aside ul .active {
 }
 
 #projectSection #projectsDivision .card img {
+  transition: all 300ms ease-in-out;
   height: 40rem;
   width: 100%;
+}
+
+#projectSection #projectsDivision .card img:hover {
+  box-shadow: 0.5rem 0.5rem 5.5rem 0.21rem grey;
+  cursor: pointer;
 }
 
 #projectSection #projectsDivision .card h4 {
@@ -7179,6 +7181,7 @@ aside ul .active {
 }
 
 #heroSection article h4 {
+  letter-spacing: 5px;
   text-align: center;
   margin-top: 5rem;
   font-size: 1.8rem;
