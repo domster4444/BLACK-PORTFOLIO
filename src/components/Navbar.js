@@ -453,16 +453,22 @@ export default function Navbar() {
           <h3>GET IN TOUCH</h3>
           <h2 className="playfair_300">CONTACT ME</h2>
           <hr></hr>
+          <div className="footer_rect"></div>
           <input></input>
           <div id="buttonContainer">
-            <button className="socialBtn">FB</button>
-            <button className="socialBtn">INSTAGRAM</button>
-            <h4>2021 Powered by:Crocoblock</h4>
+            <a href="https://www.facebook.com/ks.hitiz.735/">
+              <button id="fbBtn" className="socialBtn"></button>
+            </a>
+
+            <a href="https://www.instagram.com/this_is_kshitiz/">
+              <button id="instaBtn" className="socialBtn"></button>
+            </a>
+            {/* <h4>2021 Powered by:Crocoblock</h4>
             <h5>
-              Inspired By
+              Inspired By @&nbsp;
               <a href="https://demo.crocoblock.com/rg/">demo.crocoblock.com</a>
             </h5>
-            <h1>BUILT BY KSHTIZ</h1>
+            <h1>BUILT BY KSHTIZ</h1> */}
           </div>
         </footer>
       </main>

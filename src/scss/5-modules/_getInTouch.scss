@@ -1,0 +1,79 @@
+footer {
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  @include flexContainer;
+  padding-top: 10.8rem;
+  h3 {
+    text-align: center;
+
+    font-size: 1.8rem;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 3.5rem;
+  }
+  hr {
+    margin-top: 2rem;
+    height: 0rem;
+    border: 1px solid rgb(51, 51, 51);
+    width: 30vw;
+  }
+  .footer_rect {
+    background-color: rgb(94, 199, 200);
+    height: 0.6rem;
+    width: 5rem;
+  }
+
+  input {
+    display: none;
+
+    margin-top: 3rem;
+    width: 25rem;
+    height: 3.8rem;
+    color: white;
+    font-size: 2.5rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.2rem solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  button {
+    cursor: pointer;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+  }
+  .socialBtn {
+    &:hover {
+      transform: scale(0.95);
+    }
+    margin: 4rem;
+    height: 9.9rem;
+    width: 9.9rem;
+  }
+
+  #fbBtn {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fb.png);
+  }
+  #instaBtn {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/insta.png);
+  }
+
+  h5,
+  a,
+  h1 {
+    color: white;
+  }
+}

@@ -6737,6 +6737,91 @@ aside ul .active {
   height: 0.4rem;
 }
 
+footer {
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding-top: 10.8rem;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  font-size: 3.5rem;
+}
+
+footer hr {
+  margin-top: 2rem;
+  height: 0rem;
+  border: 1px solid #333333;
+  width: 30vw;
+}
+
+footer .footer_rect {
+  background-color: #5ec7c8;
+  height: 0.6rem;
+  width: 5rem;
+}
+
+footer input {
+  display: none;
+  margin-top: 3rem;
+  width: 25rem;
+  height: 3.8rem;
+  color: white;
+  font-size: 2.5rem;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 0.2rem solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+footer button {
+  cursor: pointer;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+}
+
+footer .socialBtn {
+  margin: 4rem;
+  height: 9.9rem;
+  width: 9.9rem;
+}
+
+footer .socialBtn:hover {
+  transform: scale(0.95);
+}
+
+footer #fbBtn {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/fb.png);
+}
+
+footer #instaBtn {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/insta.png);
+}
+
+footer h5,
+footer a,
+footer h1 {
+  color: white;
+}
+
 #interestContainer {
   display: flex;
   align-items: center;
@@ -6849,7 +6934,7 @@ aside ul .active {
 }
 
 #contactMeSection {
-  width: 55%;
+  width: 75%;
   margin-top: 10rem;
   display: flex;
   justify-content: center;
