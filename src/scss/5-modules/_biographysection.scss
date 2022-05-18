@@ -1,0 +1,75 @@
+#BiographySection {
+  margin-top: 10.6rem;
+  @include flexContainer;
+  justify-content: center;
+  flex-wrap: wrap;
+  #biography--left-Division,
+  #biography--right-Division {
+    margin: 0rem 4rem;
+  }
+  #biography--left-Division {
+    img {
+      width: 26.4rem;
+      height: 21.9rem;
+    }
+    ul {
+      list-style: none;
+      margin-top: 2.8rem;
+      text-align: right;
+      li {
+        font-size: 1.5rem;
+        margin: 1.9rem 0rem;
+        a {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+
+  #biography--right-Division {
+    width: 30%;
+    @include media('<=desktop') {
+      width: 60rem;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        position: relative;
+        h4 {
+          font-size: 1.6rem;
+          color: $royal_blue;
+        }
+        h1 {
+          font-size: 4.2rem;
+          color: $royal_white;
+          margin-bottom: 4rem;
+        }
+        .blue-line-box {
+          top: 13.4rem;
+          position: absolute;
+          width: 6.8rem;
+          background-color: $royal_blue;
+          height: 0.8rem;
+        }
+        // royal_line_color
+        hr {
+          border: none;
+          height: 1px;
+          background-color: $royal_line_color;
+          margin-bottom: 5.8rem;
+        }
+        p {
+          letter-spacing: 0.9px;
+          line-height: 2.5;
+          font-size: 1.6rem;
+          @include media('<=desktop') {
+            font-size: 1.7rem;
+          }
+          color: white;
+        }
+      }
+    }
+  }
+}

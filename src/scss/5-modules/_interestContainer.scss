@@ -1,0 +1,31 @@
+#interestContainer {
+  @include flexContainer;
+  align-items: center;
+  justify-content: center;
+  #interestBlock {
+    @include flexContainer;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @include media('>=desktop') {
+      width: 60%;
+    }
+    width: 90%;
+  }
+  #leftContainer {
+    @include media('<=tablet') {
+      margin-top: 3rem;
+    }
+    img {
+      width: 37rem;
+      height: 28.5rem;
+    }
+  }
+  #rightContainer {
+    @include media('<=tablet') {
+      margin-top: 3rem;
+    }
+    font-size: 1.8rem;
+    color: white;
+  }
+}

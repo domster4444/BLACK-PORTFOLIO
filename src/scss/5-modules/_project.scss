@@ -1,0 +1,60 @@
+#projectSection {
+  margin-top: 5.9rem;
+  @include flexContainer;
+  flex-direction: column;
+  #projectsDivision {
+    @include flexContainer;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card {
+      position: relative;
+
+      border: 1px solid grey;
+      background-color: #191919;
+      cursor: pointer;
+
+      margin: 1rem;
+      text-align: center;
+      // width: 27.5rem;
+      max-width: 37.5rem;
+
+      height: 73.6rem;
+      img {
+        transition: all 300ms ease-in-out;
+        &:hover {
+          box-shadow: 0.5rem 0.5rem 5.5rem 0.21rem grey;
+          cursor: pointer;
+        }
+        height: 40rem;
+        width: 100%;
+      }
+      h4 {
+        color: $royal_blue;
+        font-size: 1.5rem;
+        margin-top: 5rem;
+      }
+      h1 {
+        color: $royal_white;
+        font-size: 2.6rem;
+        margin-top: 2rem;
+      }
+      hr {
+        margin-top: 4.3rem;
+        border: none;
+        height: 0.1rem;
+        background: $royal_line_color;
+      }
+      h3 {
+        line-height: 2.5rem;
+        font-size: 1.4rem;
+        color: $royal_white;
+        margin-top: 2.5rem;
+      }
+    }
+  }
+  #viewAllBtnDivision {
+    @include flexContainer;
+    justify-content: center;
+  }
+}
+

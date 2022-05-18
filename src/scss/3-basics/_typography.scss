@@ -1,0 +1,72 @@
+// Lato Regular
+
+// .lato_regular_base{
+//     font-family: 'Lato_Lighty';
+//     color: black;
+//     font-weight: 400;
+// }
+// .lato_regular_10{
+//     @extend .lato_regular_base;
+//     font-size: 10px;
+// }
+// .lato_regular_11{
+//     @extend .lato_regular_base;
+//     font-size: 11px;
+// }
+// .lato_regular_12{
+//     @extend .lato_regular_base;
+//     font-size: 12px;
+// }
+// .lato_regular_13{
+//     @extend .lato_regular_base;
+//     font-size: 13px;
+// }
+// .lato_regular_14{
+//     @extend .lato_regular_base;
+//     font-size: 14px;
+// }
+
+// montserrat
+
+.poppins_base {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins_300 {
+  @extend .poppins_base;
+  font-weight: 300;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat_300 {
+  @extend .montserrat;
+  font-weight: 300;
+}
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.playfair_300 {
+  @extend .playfair;
+  font-weight: 300;
+}
+.playfair_400 {
+  @extend .playfair;
+  font-weight: 400;
+}
+
+.playfair_italic_500 {
+  @extend .playfair;
+  font-weight: 500;
+}
+
+.lato_base {
+  font-family: 'Lato', sans-serif;
+}
+
+.lato_400 {
+  @extend .lato_base;
+  font-weight: 400;
+}

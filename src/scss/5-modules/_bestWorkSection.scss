@@ -1,0 +1,35 @@
+#bestWorkSection {
+  position: relative;
+  #blueRectForTwo {
+    top: 12.2rem;
+    @include media('<=572px') {
+      top: 16.9rem;
+    }
+    position: absolute;
+    height: 0.5rem;
+    width: 8rem;
+    background-color: $royal_blue;
+  }
+  margin-top: 5rem;
+  @include flexContainer;
+  justify-content: center;
+  #leftSection {
+    width: 34%;
+    article {
+      h4 {
+        font-size: 1.6rem;
+        color: $royal_blue;
+      }
+      h1 {
+        font-size: 4.2rem;
+        color: $royal_white;
+      }
+    }
+  }
+  #rightSection {
+    img {
+      width: 28.4rem;
+      height: 20.9rem;
+    }
+  }
+}
