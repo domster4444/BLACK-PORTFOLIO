@@ -13,6 +13,9 @@
 
   border: 1px solid $royal_line_color;
   min-width: 37rem;
+  @include media('<=780') {
+    min-width: 50%;
+  }
   height: 42rem;
   .number {
     font-size: 3.7rem;
@@ -47,3 +50,4 @@
     color: $royal_white;
   }
 }
+

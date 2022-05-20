@@ -52,6 +52,8 @@ const ProjectCardInnerBtnContainer = styled.button`
 
   justify-content: space-evenly;
   a {
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
     &:hover {
       border-radius: 2rem;
       transition: all ease-in-out 300ms;
@@ -85,6 +87,7 @@ interface IProps {
   projectImg: string;
   githubUrl?: string;
   videoUrl?: string;
+  codeURL?: string;
   websiteUrl?: string;
   title: string;
   tag: string;
@@ -92,11 +95,14 @@ interface IProps {
 }
 
 const ProjectCard: FC<IProps> = ({
-  tag,
-  title,
-  comment,
   projectImg,
+  githubUrl,
+  videoUrl,
+  codeURL,
   websiteUrl,
+  title,
+  tag,
+  comment,
 }): ReactElement => {
   const [isHover, setHover] = useState<boolean>(true);
 
@@ -113,28 +119,32 @@ const ProjectCard: FC<IProps> = ({
       >
         <CardWrapper isHover={isHover} className="card__wrapper">
           <ProjectCardInnerTitleContainer>
-            Projecct Title
+            {title.toUpperCase()}
           </ProjectCardInnerTitleContainer>
           <ProjectCardInnerBtnContainer>
-            <a href="https://facebook.com" type="button">
-              View
+            <a href={websiteUrl} target="_blank" type="button">
+              Visit
             </a>
 
-            <a href="https://google.com" type="button">
-              Code{' '}
+            <a href={codeURL} target="_blank" type="button">
+              Code
             </a>
           </ProjectCardInnerBtnContainer>
         </CardWrapper>
 
-        <a href={websiteUrl}>
-          <img src={projectImg} alt="first project potrait"></img>
-        </a>
+        <img src={projectImg} alt="first project potrait"></img>
         <h4 className="montserrat_300">{tag.toUpperCase()}</h4>
         <h1 className="playfair_300">{title.toUpperCase()}</h1>
         <IconContainer>
-          <AiFillGithub />
-          <HiOutlineExternalLink />
-          <BiVideo />
+          <a href={codeURL} target="_blank">
+            <AiFillGithub />
+          </a>
+          <a href={websiteUrl} target="_blank">
+            <HiOutlineExternalLink />
+          </a>
+          <a href={videoUrl} target="_blank">
+            <BiVideo />
+          </a>
         </IconContainer>
         <hr></hr>
         <h3 className="montserrat_300">{comment.toUpperCase()}</h3>

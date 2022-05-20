@@ -2290,6 +2290,7 @@ template {
 }
 
 body {
+  position: relative;
   overflow-x: hidden;
   background: #202020;
 }
@@ -2664,6 +2665,12 @@ footer h1 {
   border: 1px solid #333333;
   min-width: 37rem;
   height: 42rem;
+}
+
+@media (max-width: 780) {
+  .statistics-card {
+    min-width: 50%;
+  }
 }
 
 .statistics-card .number {

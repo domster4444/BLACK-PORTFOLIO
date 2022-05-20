@@ -1,5 +1,5 @@
-import React, { useEffect, FC, ReactElement, useState } from 'react';
-
+import { FC, ReactElement } from 'react';
+import SecondaryBtn from 'components/Button';
 const Toolbar: FC = (): ReactElement => {
   return (
     <>
@@ -13,7 +13,13 @@ const Toolbar: FC = (): ReactElement => {
             >
               KSHITIZ <span>SHAH</span>
             </li>
-            <li>menu</li>
+            <li>
+              <a href="../../img/bigCastBg.jpg" download>
+                <a href="https://drive.google.com/uc?export=download&id=1ETyMYIS2YVU5wI6YqnO1gtx-vGzVFqPp">
+                  <SecondaryBtn name="Download Resume" sm />
+                </a>
+              </a>
+            </li>
             {/* <li id="hamburger-container">
               <div id="hamburger">
                 <div className="line" id="line-one"></div>

@@ -1,7 +1,11 @@
 import React, { FC, ReactElement } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-const StyledSecondaryBtn = styled.button`
+interface StyledSecondaryBtnProps {
+  sm?: boolean;
+}
+
+const StyledSecondaryBtn = styled.button<StyledSecondaryBtnProps>`
   background-color: #191919;
   color: white;
   border-left: 0.1rem solid rgb(94, 199, 200);
@@ -12,26 +16,39 @@ const StyledSecondaryBtn = styled.button`
   cursor: pointer;
   font-size: 1.8rem;
   height: 6.3rem;
-  padding: 1rem 1.5rem;
 
+  padding: 1rem 1.5rem;
   min-width: 18.5rem;
+  ${(props: StyledSecondaryBtnProps) =>
+    props.sm
+      ? css`
+          font-weight: bold;
+          height: 4.3rem;
+          min-width: 15.5rem;
+          font-size: 1.4rem;
+          padding: 0.5rem 0.5rem;
+        `
+      : ''}
+
   transition: all 400ms ease;
-  &:hover {
+  &:active {
     color: black;
     background-color: rgb(94, 199, 200);
-
     border: none;
   }
 `;
 
 interface IProps {
+  sm?: boolean;
   name: string;
 }
 
-export const SecondaryBtn: FC<IProps> = ({ name }): ReactElement => {
+export const SecondaryBtn: FC<IProps> = ({ name, sm }): ReactElement => {
   return (
     <>
-      <StyledSecondaryBtn className="lato_400">{name}</StyledSecondaryBtn>
+      <StyledSecondaryBtn sm={sm} className="lato_400">
+        {name}
+      </StyledSecondaryBtn>
     </>
   );
 };

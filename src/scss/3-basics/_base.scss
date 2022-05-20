@@ -14,6 +14,7 @@
 }
 
 body {
+  position: relative;
   overflow-x: hidden;
   background: $royal_black;
 }
@@ -25,3 +26,4 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
