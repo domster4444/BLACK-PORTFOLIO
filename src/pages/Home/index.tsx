@@ -387,10 +387,10 @@ const Home: FC = (): ReactElement => {
             />
             <ProjectCard
               videoUrl="https://youtube.com"
-              codeURL="https://github.com/domster4444/design-app-landing-page"
+              codeURL="https://github.com/domster4444/blogr-landing-page"
               tag="latest"
               title="landing page"
-              comment="Landing page for app website."
+              comment="Programming Challenge that I took to convert given design into html/css."
               websiteUrl="https://kshitizblogr.netlify.app/"
               projectImg={projectFive}
             />
