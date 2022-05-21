@@ -2368,6 +2368,14 @@ a:hover, a:focus {
   font-weight: 400;
 }
 
+.libre_baskerville_base, .libre_italic {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.libre_italic {
+  font-weight: 400;
+}
+
 footer {
   background-color: #171717;
 }
@@ -3046,4 +3054,8 @@ footer h1 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #5ec7c8;
+}
+
+.react-rotating-text-cursor {
+  display: none;
 }

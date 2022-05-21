@@ -1,9 +1,11 @@
 import React, { ReactElement, FC } from 'react';
 import './App.css';
+
 import Toolbar from './components/Toolbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import CaseStudy from './pages/CaseStudy';
 import ScrollToTop from 'react-scroll-to-top';
+import Home from './pages/Home';
 
 const App: FC = (): ReactElement => {
   return (
@@ -12,6 +14,7 @@ const App: FC = (): ReactElement => {
       <main>
         <Toolbar />
         <Home />
+        {/* <CaseStudy /> */}
         <Footer />
       </main>
     </>

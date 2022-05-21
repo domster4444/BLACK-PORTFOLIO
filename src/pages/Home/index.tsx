@@ -350,7 +350,7 @@ const Home: FC = (): ReactElement => {
             {/* width  1902  */}
             {/* height  2058 */}
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/domster4444/portfolio-client"
               tag="latest"
               title="hexgrade.com"
@@ -359,7 +359,7 @@ const Home: FC = (): ReactElement => {
               projectImg={projectOne}
             />
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/domster4444/black-portfolio"
               tag="latest"
               title="portfolio website"
@@ -368,7 +368,7 @@ const Home: FC = (): ReactElement => {
               projectImg={projectTwo}
             />
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/domster4444/elegant-landing-page"
               tag="latest"
               title="landing page"
@@ -377,16 +377,16 @@ const Home: FC = (): ReactElement => {
               projectImg={projectThree}
             />
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/domster4444/design-app-landing-page"
               tag="latest"
               title="landing page"
               comment="Landing page for app website."
-              websiteUrl="https://eleganttheme.netlify.app/"
+              websiteUrl="https://kshitizdesign.netlify.app/"
               projectImg={projectFour}
             />
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/domster4444/blogr-landing-page"
               tag="latest"
               title="landing page"
@@ -395,7 +395,7 @@ const Home: FC = (): ReactElement => {
               projectImg={projectFive}
             />
             <ProjectCard
-              videoUrl="https://youtube.com"
+              videoUrl="#"
               codeURL="https://github.com/Deerwalk-Developers-Community/DDC-Portal"
               tag="latest"
               title="opensource project"
@@ -584,18 +584,18 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAADcCAMAAAC4YpZBAAAAz1BMVEX///
         <section id="statistics-section">
           <StatsCard
             title="TOTAL WEBSITE"
-            value={10}
+            value={86}
             icon={statisticsLogoOne}
           />
 
-          <StatsCard title="CLIENTS" value={0} icon={statisticsLogoTwo} />
+          <StatsCard title="CLIENTS" value={4} icon={statisticsLogoTwo} />
 
           <StatsCard
             title="WORKING HOUR"
             value={0}
             icon={statisticsLogoThree}
           />
-          <StatsCard title="COFFEE" value={0} icon={statisticsLogoFour} />
+          <StatsCard title="COFFEE" value={140} icon={statisticsLogoFour} />
         </section>
       </Fade>
 

@@ -18,6 +18,7 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-reveal": "^1.2.2",
+    "react-rotating-text": "^1.4.1",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^1.0.8",
     "styled-components": "^5.3.5",
@@ -48,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-tagcloud": "^1.1.7"
   }
 }
