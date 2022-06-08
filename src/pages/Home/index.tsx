@@ -592,7 +592,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAADcCAMAAAC4YpZBAAAAz1BMVEX///
 
           <StatsCard
             title="WORKING HOUR"
-            value={0}
+            value={256}
             icon={statisticsLogoThree}
           />
           <StatsCard title="COFFEE" value={140} icon={statisticsLogoFour} />

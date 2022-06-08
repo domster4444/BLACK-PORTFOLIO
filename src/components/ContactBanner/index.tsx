@@ -17,7 +17,7 @@ const ContactBanner: FC = (): ReactElement => {
               <h1 className="playfair_400">
                 <b>Contact me</b>
               </h1>
-              <h2 className="montserrat_300">kshitiz.stha11@gmail.com</h2>
+              <h2 className="montserrat_300">kshitizshah79@gmail.com</h2>
               <h4>7am - 11pm</h4>
             </div>
             <div id="rightSection">

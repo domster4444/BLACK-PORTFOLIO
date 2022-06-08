@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 
 interface StyledSecondaryBtnProps {
   sm?: boolean;
+  lg?: boolean;
 }
 
 const StyledSecondaryBtn = styled.button<StyledSecondaryBtnProps>`
