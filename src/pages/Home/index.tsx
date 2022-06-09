@@ -1,4 +1,4 @@
-import { FC, ReactElement, useState } from 'react';
+import { FC, ReactElement, useState, useEffect } from 'react';
 import StackCard from 'components/StackCard';
 
 // todo :react icons
@@ -9,6 +9,7 @@ import { CgMail } from 'react-icons/cg';
 //? libs
 //@ts-ignore
 import Fade from 'react-reveal/Fade';
+import { useLoadingContext } from 'react-router-loading';
 
 //? Import of images
 import kshitiz from 'img/kshitiz.png';
@@ -350,7 +351,8 @@ const Home: FC = (): ReactElement => {
             {/* width  1902  */}
             {/* height  2058 */}
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="0"
+              // videoUrl="#"
               codeURL="https://github.com/domster4444/portfolio-client"
               tag="latest"
               title="hexgrade.com"
@@ -359,7 +361,8 @@ const Home: FC = (): ReactElement => {
               projectImg={projectOne}
             />
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="1"
+              // videoUrl="#"
               codeURL="https://github.com/domster4444/black-portfolio"
               tag="latest"
               title="portfolio website"
@@ -368,7 +371,8 @@ const Home: FC = (): ReactElement => {
               projectImg={projectTwo}
             />
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="3"
+              // videoUrl="#"
               codeURL="https://github.com/domster4444/elegant-landing-page"
               tag="latest"
               title="landing page"
@@ -377,7 +381,8 @@ const Home: FC = (): ReactElement => {
               projectImg={projectThree}
             />
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="4"
+              // videoUrl="#"
               codeURL="https://github.com/domster4444/design-app-landing-page"
               tag="latest"
               title="landing page"
@@ -386,7 +391,8 @@ const Home: FC = (): ReactElement => {
               projectImg={projectFour}
             />
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="5"
+              // videoUrl="#"
               codeURL="https://github.com/domster4444/blogr-landing-page"
               tag="latest"
               title="landing page"
@@ -395,7 +401,8 @@ const Home: FC = (): ReactElement => {
               projectImg={projectFive}
             />
             <ProjectCard
-              videoUrl="#"
+              caseStudyUrl="6"
+              // videoUrl="#"
               codeURL="https://github.com/Deerwalk-Developers-Community/DDC-Portal"
               tag="latest"
               title="opensource project"

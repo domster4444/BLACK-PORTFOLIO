@@ -3,6 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { BiVideo } from 'react-icons/bi';
 import styled, { css } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const IconContainer = styled.div`
   display: flex;
@@ -92,6 +93,7 @@ interface IProps {
   title: string;
   tag: string;
   comment: string;
+  caseStudyUrl: string;
 }
 
 const ProjectCard: FC<IProps> = ({
@@ -103,6 +105,7 @@ const ProjectCard: FC<IProps> = ({
   title,
   tag,
   comment,
+  caseStudyUrl,
 }): ReactElement => {
   const [isHover, setHover] = useState<boolean>(true);
 
@@ -122,12 +125,15 @@ const ProjectCard: FC<IProps> = ({
             {title.toUpperCase()}
           </ProjectCardInnerTitleContainer>
           <ProjectCardInnerBtnContainer>
-            <a href={websiteUrl} target="_blank" type="button">
-              Visit
-            </a>
+            <Link to={`/casestudy/${caseStudyUrl}`}>Case Study</Link>
 
             <a href={codeURL} target="_blank" type="button">
               Code
+            </a>
+          </ProjectCardInnerBtnContainer>
+          <ProjectCardInnerBtnContainer>
+            <a href={websiteUrl} target="_blank" type="button">
+              Visit Site
             </a>
           </ProjectCardInnerBtnContainer>
         </CardWrapper>
@@ -136,17 +142,24 @@ const ProjectCard: FC<IProps> = ({
         <h4 className="montserrat_300">{tag.toUpperCase()}</h4>
         <h1 className="playfair_300">{title.toUpperCase()}</h1>
         <IconContainer>
-          <a href={codeURL} target="_blank">
-            <AiFillGithub />
-          </a>
-          <a href={websiteUrl} target="_blank">
-            <HiOutlineExternalLink />
-          </a>
-          <a href={videoUrl} target="_blank">
-            <BiVideo />
-          </a>
+          {codeURL && (
+            <a href={codeURL} target="_blank">
+              <AiFillGithub />
+            </a>
+          )}
+          {websiteUrl && (
+            <a href={websiteUrl} target="_blank">
+              <HiOutlineExternalLink />
+            </a>
+          )}
+
+          {videoUrl && (
+            <a href={videoUrl} target="_blank">
+              <BiVideo />
+            </a>
+          )}
         </IconContainer>
-        <hr></hr>
+        <hr />
         <h3 className="montserrat_300">{comment.toUpperCase()}</h3>
       </div>
     </>

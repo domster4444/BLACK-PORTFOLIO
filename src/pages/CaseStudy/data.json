@@ -1,0 +1,32 @@
+[
+  {
+    "mockUrl": "https://i.imgur.com/q0ULFn5.png",
+    "name": "Hexgrade",
+    "description": ["Landing Page For App Website", "Built With Love"],
+
+    "role": "ui/ux",
+    "context": "personal project",
+    "period": "2018",
+    "colors": ["#191970", "#f8f8f8", "#ffffff", "black", "#f21361", "#7928ca"],
+    "typography": {
+      "firstImgUrl": "",
+      "secondImgUrl": ""
+    },
+    "downloadLink": ""
+  },
+  {
+    "mockUrl": "https://i.imgur.com/2MoO61Q.png",
+    "name": "Portfolio Website",
+    "description": ["Personal Portfolio Website", "Built With Love"],
+
+    "role": "ui/ux",
+    "context": "personal project",
+    "period": "2018",
+    "colors": ["#5ec7c8", "#171717", "#333333", "black", "white"],
+    "typography": {
+      "firstImgUrl": "",
+      "secondImgUrl": ""
+    },
+    "downloadLink": ""
+  }
+]
