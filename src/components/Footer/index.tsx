@@ -13,13 +13,6 @@ const Footer: FC = (): ReactElement => {
           <div className="footer_rect"></div>
           <input></input>
           <div id="buttonContainer">
-            <a href="https://www.facebook.com/ks.hitiz.735/">
-              <button id="fbBtn" className="socialBtn"></button>
-            </a>
-
-            <a href="https://www.instagram.com/kshitiz77777777/">
-              <button id="instaBtn" className="socialBtn"></button>
-            </a>
             {/* <h4>2021 Powered by:Crocoblock</h4>
             <h5>
               Inspired By @&nbsp;

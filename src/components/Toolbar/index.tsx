@@ -15,7 +15,10 @@ const Toolbar: FC = (): ReactElement => {
             </li>
             <li>
               <a href="../../img/bigCastBg.jpg" download>
-                <a href="https://drive.google.com/uc?export=download&id=1ETyMYIS2YVU5wI6YqnO1gtx-vGzVFqPp">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1shhz4CElSdpP5YmNwt9WiuhTts7qxudI/view?usp=sharing"
+                >
                   <SecondaryBtn name="Download Resume" sm />
                 </a>
               </a>
@@ -28,4 +31,3 @@ const Toolbar: FC = (): ReactElement => {
 };
 
 export default Toolbar;
-

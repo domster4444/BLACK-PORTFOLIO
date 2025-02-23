@@ -125,17 +125,15 @@ const ProjectCard: FC<IProps> = ({
             {title.toUpperCase()}
           </ProjectCardInnerTitleContainer>
           <ProjectCardInnerBtnContainer>
-            <Link to={`/casestudy/${caseStudyUrl}`}>Case Study</Link>
-
             <a href={codeURL} target="_blank" type="button">
               Code
             </a>
           </ProjectCardInnerBtnContainer>
-          <ProjectCardInnerBtnContainer>
+          {/* <ProjectCardInnerBtnContainer>
             <a href={websiteUrl} target="_blank" type="button">
               Visit Site
             </a>
-          </ProjectCardInnerBtnContainer>
+          </ProjectCardInnerBtnContainer> */}
         </CardWrapper>
 
         <img src={projectImg} alt="first project potrait"></img>

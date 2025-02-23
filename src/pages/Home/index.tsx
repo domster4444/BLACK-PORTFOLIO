@@ -403,7 +403,7 @@ const Home: FC = (): ReactElement => {
             <ProjectCard
               caseStudyUrl="6"
               // videoUrl="#"
-              codeURL="https://github.com/Deerwalk-Developers-Community/DDC-Portal"
+              codeURL="https://github.com/Deerwalk-Developers-Community/Club-Management-Portal"
               tag="latest"
               title="opensource project"
               comment="Website for Deerwalk Developer Commnunity."
@@ -595,7 +595,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAADcCAMAAAC4YpZBAAAAz1BMVEX///
             icon={statisticsLogoOne}
           />
 
-          <StatsCard title="CLIENTS" value={4} icon={statisticsLogoTwo} />
+          <StatsCard title="CLIENTS" value={12} icon={statisticsLogoTwo} />
 
           <StatsCard
             title="WORKING HOUR"
